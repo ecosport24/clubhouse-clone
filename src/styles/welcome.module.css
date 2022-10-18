@@ -1,3 +1,46 @@
 .WelcomeContainer {
     padding: 3rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: #f2f0e4;
+}
+
+.WelcomeContainer h1 {
+    font-size: 1.5em;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 0;
+    color: var(--textColor);
+
+}
+
+.WelcomeInfo {
+    height: 253px;
+    overflow: auto;
+    color : var(--textColor);
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.actionBtn {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.actionBtn > a {
+    text-decoration: none;
+}
+
+.actionBtn > a:last-child {
+    color: var(--btnBgColor);
+    font-size: 0.875em;
+    font-style: normal;
+    font-weight: 400;
 }
