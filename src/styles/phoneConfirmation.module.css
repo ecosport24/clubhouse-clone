@@ -34,7 +34,6 @@
 width: 20px;
 }
 
-
 .phoneConfirmationContainer .backBtn{
     position: absolute;
     top: 10px;
@@ -51,8 +50,37 @@ width: 20px;
     align-items: center;
     justify-content: center;
 }
-/* 
-.phoneConfirmationContainer .nextBtn img{
-    margin-left: 10px;
-    margin-top: 2px;
-} */
+
+.notificationContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+.notificationContainer .action_btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ccc;
+}
+
+.notificationContainer .action_btn a{
+    width: 100%;
+    padding: .5em;
+    text-decoration: none;
+    color: var(--btnBgColor);
+}
+.notificationContainer .action_btn a:last-child{
+    border-left: 1px solid #ccc;
+}
+
+.handImageIcon{
+    position: absolute;
+    width: 100px ;
+    right: 80px;
+    margin-top: 1em;
+}
