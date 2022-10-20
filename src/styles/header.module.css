@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em .5em;
+}
+
+.header .icons {
+    width: 20px;
+    margin: 0 0.8em;
+}

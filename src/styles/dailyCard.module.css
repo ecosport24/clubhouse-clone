@@ -1,0 +1,32 @@
+.dailyInforCard {
+    background-color: #e7e4d5;
+    padding: .5em 1em;
+    border-radius: 1em;
+}
+
+.dailyInforCard > .dailyCardItem {
+    display: flex;
+}
+
+.dailyCardItem > span {
+    max-width: 70px;
+    width: 100%;
+    text-align: end;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.dailyCardItem  span {
+    font-size: 0.675em;
+    padding-top: 6px;
+    color: var(--textColor);
+    font-weight: 500;
+}
+
+.dailyCardItem > div > p{ 
+    font-size: .7em;
+    line-height: 1;
+    margin: 0;
+}
