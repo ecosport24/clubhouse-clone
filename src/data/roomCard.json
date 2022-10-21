@@ -1,0 +1,71 @@
+[
+    {
+       "id": 1,
+       "title": "Good Time",
+       "sub_title": "Calvin Harris x Emaiil Nava on Good Time Show",
+       "members": [
+        {
+            "first_name": "Liam",
+            "last_name": "Smith"
+        },
+        {
+            "first_name": "Johnson",
+            "last_name": "Williams"
+        },
+        {
+            "first_name": "Brown",
+            "last_name": "Jones"
+        },
+        {
+            "first_name": "Miller",
+            "last_name": "Davis"
+        }
+       ]
+    },
+    {
+       "id": 2,
+       "title": "Good Time",
+       "sub_title": "Calvin Harris x Emaiil Nava on Good Time Show",
+       "members": [
+        {
+            "first_name": "Gonzalez",
+            "last_name": "Rodriguez"
+        },
+        {
+            "first_name": "Lee",
+            "last_name": "Garcia"
+        },
+        {
+            "first_name": "Lopez",
+            "last_name": "Wilson"
+        },
+        {
+            "first_name": "White",
+            "last_name": "Martinez"
+        }
+       ]
+    },
+    {
+       "id": 3,
+       "title": "Good Time",
+       "sub_title": "Calvin Harris x Emaiil Nava on Good Time Show",
+       "members": [
+        {
+            "first_name": "Thompson",
+            "last_name": "Anderson"
+        },
+        {
+            "first_name": "Jackson",
+            "last_name": "Taylor"
+        },
+        {
+            "first_name": "Martin",
+            "last_name": "Thomas"
+        },
+        {
+            "first_name": "Moore",
+            "last_name": "Hernandez"
+        }
+       ]
+    }
+]

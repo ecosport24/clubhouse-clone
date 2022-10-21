@@ -1,0 +1,56 @@
+.roomCardContainer {
+    background-color: #fff;
+    border-radius: 1em;
+    padding: 1em;
+    margin-top: .5em;
+}
+
+.roomCardContainer > h6 {
+    font-size: .675em;
+    font-weight: 500;
+    color: var(--textColor);
+}
+
+.roomCardContainer > h3 {
+    font-size: .875em;
+    font-weight: 500;
+    color: #000;
+    line-height: 1;
+}
+
+.roomMembers {
+    display: flex;
+    align-items: flex-start;
+    margin-top: .8em;
+}
+
+.roomMembers > div > p{
+    line-height: 1;
+    margin-bottom: .4em;
+    font-size: .875em;
+    font-weight: 500;
+    color: var(--textColor);
+}
+
+.roomMembers > div:nth-child(2){
+    color: var(--textColor);
+}
+
+.imgContainer img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: .5em;
+}
+
+.imgContainer{
+    position: relative;
+    margin-right: 4em;
+}
+
+.imgContainer > img:nth-child(2){
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
