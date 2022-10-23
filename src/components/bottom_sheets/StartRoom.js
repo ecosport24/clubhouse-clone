@@ -9,7 +9,7 @@ const StartRoom = (props) => {
   const btns = ["open", "social", "closed"];
 
   return (
-    <div>
+    <div className="p-2">
       <div className={style.switch_line}></div>
       <div className={style.addTopicBtnContainer}>
         <button className={style.addTopicBtn}>
@@ -19,8 +19,9 @@ const StartRoom = (props) => {
       </div>
 
       <div className={style.selectRoom}>
-        {btns.map((btn) => (
+        {btns.map((btn, index) => (
           <button
+            key={index}
             className={room == btn ? style.active : ""}
             onClick={() => setRoom(btn)}
           >

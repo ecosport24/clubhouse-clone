@@ -9,8 +9,8 @@ import {
 const RoomInforCard = () => {
   return (
     <div>
-      {datas.map((data) => (
-        <div className={style.roomCardContainer}>
+      {datas.map((data, index) => (
+        <div key={index} className={style.roomCardContainer}>
           <h6>{data.title}</h6>
           <h3>{data.sub_title}</h3>
           <div className={style.roomMembers}>

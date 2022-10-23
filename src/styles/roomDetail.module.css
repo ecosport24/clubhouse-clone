@@ -1,0 +1,127 @@
+.roomDetailContainer {
+    height: 90vh;
+    overflow: hidden;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F2F0E4;
+}
+
+.header > div > a> svg {
+    color: #000;
+    font-size: 1em;
+    margin-right: .5em;
+}
+
+.header > div > a {
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+.header img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+
+.header > div > svg {
+    color: #000;
+    font-size: 1.3em;
+    margin-right: .5em;
+}
+
+.memberContainer{
+    border-radius: 1.5em 1.5em 0 0;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.memberContainer > div {
+    position: relative;
+    width: 70px;
+    height: 70px;
+}
+.memberContainer > div > p {
+    font-size: .7em;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--textColor);
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+
+.memberContainer > div > p > svg{ 
+   color:#28ea61;
+    margin-right: 4px;
+}
+
+.memberContainer > div > div{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    background-color: #f2f0e48c;
+    padding: 1px 5px;
+    border-radius: .5em;
+    box-shadow: 0 0 2px #000;
+}
+
+.memberContainer > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: .5em;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1em;
+    background-color: #F2F0E4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer > button {
+    border: none;
+    color: #F4D03F;
+    background-color: #e0ded1;
+    border-radius: 1em;
+    height: 40px;
+    /* width: 150px; */
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.footer > button > span {
+    color: #12c949;
+    margin-left: 8px;
+    font-weight: 600;
+    
+}
+.footer div button{
+    border: none;
+    background-color: #e0ded1;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+}

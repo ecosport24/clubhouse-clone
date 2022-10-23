@@ -5,6 +5,7 @@ import RoomInforCard from "../components/RoomInforCard";
 import style from "../styles/home.module.css";
 import { BsPlusLg, BsGrid3X3Gap } from "react-icons/bs";
 import datas from "../data/roomCard.json";
+import newRoomDatas from "../data/newRoom.json";
 import BottomSheet from "../components/BottomSheet";
 
 const Home = () => {
@@ -39,14 +40,17 @@ const Home = () => {
         sheetVisible={sheetVisible}
         cardDetail={datas.find((data) => data.id == cardId)}
         setItemsVisible={(item) => setItemsVisible(item)}
-        setSheetCreateRoom={(item) => {
-          setLoaderVisibility(true);
-          setTimeout(() => {
-            setSheetCreateRoom(item);
-            setLoaderVisibility(false);
-          }, 1000);
-        }}
-      ></BottomSheet>
+        setSheetCreateRoom={(item) => setSheetCreateRoom(item)}
+      />
+
+      <BottomSheet
+        sheetTitle="new room"
+        setSheetVisible={(item) => setSheetVisible(item)}
+        sheetVisible={sheetCreateRoom}
+        setSheetCreateRoom={(item) => setSheetCreateRoom(item)}
+        cardDetail={newRoomDatas}
+        setItemsVisible={(item) => setItemsVisible(item)}
+      />
     </div>
   );
 };
