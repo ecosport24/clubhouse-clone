@@ -1,0 +1,162 @@
+.exploreContainer {
+    height: 100%;
+}
+
+.exploreContainer .header {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    color: var(--textColor);
+
+}
+
+.exploreContainer .header > h2 {
+    margin: 0;
+    position: absolute;
+    width: calc(100% - 1em);
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.exploreContainer .header > a {
+    font-size: 1.5em;
+    color: var(--textColor);
+    display: flex;
+    z-index: 5;
+}
+
+.followContainer {
+    padding: 1em;
+}
+.followContainer > h4,
+.conversationCardContainer > h4 {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+    color: rgba(158, 152, 134, 0.767);
+    margin-bottom: 0;
+}
+
+.followContainer > .peopleCardContainer  {
+    background-color: #fff;
+    border-radius: .7em;
+    margin-top: .5em;
+    position: relative;
+    padding: .5em 1em;
+    padding-bottom: 1.5em;
+}
+.followContainer > div > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .3em 0;
+}
+
+.followContainer > div > div > .followBtn{
+    border: none;
+    background-color: transparent;
+    border: 2px solid var(--btnBgColor);
+    color: var(--btnBgColor);
+    font-weight: 600;
+    border-radius: 2em;
+    padding: 0 1em;
+}
+.followContainer > div > div > div {
+    /* width: 150px; */
+    display: flex;
+}
+.followContainer > div > div > div > div {
+    margin-left: 10px;
+}
+.followContainer > div > div > div > div > h2{
+    font-size: 1em;
+    margin-bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;
+
+}
+.followContainer > div > div > div > div > p{
+    margin-bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: .795em;
+    font-weight: 500;
+    color: rgba(158, 152, 134, 0.884);
+}
+.followContainer > div > div >div > img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 1em;
+}
+
+.followContainer > div > .showMoreBtnContainer {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+.followContainer > div > div > .showMoreBtn {
+    border: none;
+    background-color: rgba(204, 204, 204, 0.651);
+    border-radius: 20px;
+    padding: .1em 1em;
+    font-weight: 600;
+    color: rgb(90, 89, 84);
+    font-size: .875em;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.562);
+}
+
+.conversationCardContainer{
+    padding: 1em;
+}
+
+.conversationCardContainer > div  {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: .5em;
+}
+
+.conversationCardContainer > div> div {
+    background-color: #fff;
+    padding: .5em;
+    box-shadow: 0 0 5px #00000023;
+    border-radius: 10px;
+    /* width: 160px;
+    height: 80px; */
+}
+
+.conversationCardContainer > div> div > div >h5{
+    margin-bottom: 5px;
+    font-size: 1em;
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.conversationCardContainer > div> div > div >h5>svg {
+    margin-right: 3px;
+}
+
+.conversationCardContainer > div> div >p{
+    margin-bottom: 0;
+    line-height: 1.2;
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    font-size: .795em;
+    font-weight: 500;
+    color: rgba(158, 152, 134, 0.884);
+}
+
