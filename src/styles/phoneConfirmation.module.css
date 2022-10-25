@@ -9,6 +9,27 @@
     
 }
 
+
+.inputContainer img {
+    width: 45px;
+}
+
+
+.phoneConfirmationContainer .inputContainer > div {
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 1em;
+
+}
+
+.phoneConfirmationContainer .inputContainer > div >select {
+    width: 200px;
+}
+.phoneConfirmationContainer .inputContainer > input {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
 .phoneConfirmationContainer h1 {
     font-size: 1.3em;
     font-weight: 500;
@@ -27,6 +48,16 @@
 
 .phoneConfirmationContainer p span{
     font-weight: 600;
+}
+
+.phoneConfirmationContainer .backBtn svg {
+    font-size: 1.8em;
+    color: var(--textColor);
+}
+
+.phoneConfirmationContainer .nextBtn svg {
+    font-size: 1.3em;
+    margin-left: 5px;
 }
 
 .phoneConfirmationContainer .backBtn img,

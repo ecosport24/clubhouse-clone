@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import style from "../styles/phoneConfirmation.module.css";
-
+import { IoIosArrowBack } from "react-icons/io";
+import { BsBoxArrowInRight } from "react-icons/bs";
 const CodeConfirm = () => {
   return (
     <div className={style.phoneConfirmationContainer}>
       <Link to={"/"} className={style.backBtn}>
-        <img src="./images/back-icon.png" alt="" />
+        <IoIosArrowBack />
       </Link>
       <div className="d-flex align-items-center text-center flex-column">
         <h1 className="w-75">Enter the code we just texted you.</h1>
@@ -20,7 +21,7 @@ const CodeConfirm = () => {
         </p>
         <Link to={"/allow-notification"} className={style.nextBtn}>
           <span>Next</span>
-          <img src="./images/next-icon.png" className={"ms-2 mt-1"} />
+          <BsBoxArrowInRight />
         </Link>
       </div>
     </div>

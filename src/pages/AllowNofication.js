@@ -21,7 +21,7 @@ const AllowNofication = () => {
             <Link to={"/"} className="">
               Don't Allow
             </Link>
-            <Link to={"/"}>Allow</Link>
+            <Link to={"/home"}>Allow</Link>
           </div>
         </div>
         <img className={style.handImageIcon} src="./images/hand_icon.png" />

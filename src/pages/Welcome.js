@@ -22,7 +22,7 @@ const Welcome = () => {
       </div>
       <div className={style.actionBtn}>
         <Link
-          to={"/get_username"}
+          to={"/invite"}
           className="primaryBtn d-flex align-items-center mb-3"
         >
           Get your username

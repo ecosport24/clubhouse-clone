@@ -2,18 +2,22 @@ import React, { useState } from "react";
 import PhoneInput from "react-phone-number-input";
 import { Link } from "react-router-dom";
 import style from "../styles/phoneConfirmation.module.css";
+import { IoIosArrowBack } from "react-icons/io";
+import { BsBoxArrowInRight } from "react-icons/bs";
+
 const PhoneConfirmation = () => {
   const [phoneNum, setPhoneNum] = useState();
   return (
     <div className={style.phoneConfirmationContainer}>
       <Link to={"/"} className={style.backBtn}>
-        <img src="./images/back-icon.png" alt="" />
+        <IoIosArrowBack />
       </Link>
       <h1>Enter your Phone</h1>
       <PhoneInput
         international
         defaultCountry="PH"
         value={phoneNum}
+        className={style.inputContainer}
       ></PhoneInput>
       <p>
         By entering your number, you're agreeing to our{" "}
@@ -21,7 +25,7 @@ const PhoneConfirmation = () => {
       </p>
       <Link to={"/code-confirm"} className={style.nextBtn}>
         <span>Next</span>
-        <img src="./images/next-icon.png" className={"ms-2 mt-1"} />
+        <BsBoxArrowInRight />
       </Link>
     </div>
   );
